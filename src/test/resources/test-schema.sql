@@ -1,0 +1,8 @@
+CREATE DATABASE IF NOT EXISTS test_database;
+USE test_database;
+
+CREATE TABLE country (
+    id BIGINT(20) NOT NULL AUTO_INCREMENT,
+    name VARCHAR(200) UNIQUE,
+    PRIMARY KEY (id)
+);

@@ -7,6 +7,6 @@ import org.springframework.stereotype.Repository;
 import java.util.List;
 
 @Repository
-public interface HomeDao extends JpaRepository<Country, Long> {
+public interface HomeDaoJava extends JpaRepository<Country, Long> {
   List<Country> findByName(String name);
 }
